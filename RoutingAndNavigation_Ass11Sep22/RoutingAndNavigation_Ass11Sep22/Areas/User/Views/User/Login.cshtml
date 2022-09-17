@@ -1,0 +1,22 @@
+﻿@model RoutingAndNavigation_Ass11Sep22.Areas.User.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LayoutLogin";
+}
+
+<h1>Login</h1>
+
+<form asp-area="User" asp-action="Login" asp-controller="User" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div>
+        UserName: <input type="text" asp-for="Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div>
+        Password: <input type="password" asp-for="Password" />
+    </div>
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+</form>
+
