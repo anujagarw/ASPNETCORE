@@ -8965,11 +8965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASPNETCORE\\Code\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation.csproj",
+      "projectUniqueName": "D:\\ASPNETCORE\\Code\\ASPNETCORE\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation.csproj",
       "projectName": "Lab3_FormsAndValidation",
-      "projectPath": "D:\\ASPNETCORE\\Code\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation.csproj",
+      "projectPath": "D:\\ASPNETCORE\\Code\\ASPNETCORE\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\ASPNETCORE\\Code\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\obj\\",
+      "outputPath": "D:\\ASPNETCORE\\Code\\ASPNETCORE\\Lab3_FormsAndValidation\\Lab3_FormsAndValidation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

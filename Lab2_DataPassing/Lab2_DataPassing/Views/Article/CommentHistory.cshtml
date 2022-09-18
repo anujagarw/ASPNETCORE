@@ -1,0 +1,21 @@
+﻿@model Lab2_DataPassing.Models.ArticleModel;
+@{
+    ViewData["Title"] = "Index";
+    string value = (string) ViewData["comment"];
+}
+
+<form asp-action="PostComment">    
+    <div>
+        Comment: <input type="text" asp-for="Comments"/>
+    </div>    
+    
+    <div>
+        <input type="submit" value="Post Comment" />
+    </div>
+</form>
+
+<br /><br />
+
+<h3>Comments History:</h3>
+@await Component.InvokeAsync("Comment", new {comment = value})
+
