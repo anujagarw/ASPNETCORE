@@ -1,0 +1,12 @@
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\bin\Debug\net6.0\WebApp.Models.deps.json
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\bin\Debug\net6.0\WebApp.Models.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\bin\Debug\net6.0\WebApp.Models.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.csproj.AssemblyReference.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.AssemblyInfoInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.AssemblyInfo.cs
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.csproj.CoreCompileInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\refint\WebApp.Models.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\WebApp.Models.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Models\obj\Debug\net6.0\ref\WebApp.Models.dll

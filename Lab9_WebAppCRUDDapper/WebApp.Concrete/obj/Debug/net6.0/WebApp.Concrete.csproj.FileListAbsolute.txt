@@ -1,0 +1,17 @@
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Concrete.deps.json
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Concrete.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Concrete.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Interface.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Models.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Interface.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\bin\Debug\net6.0\WebApp.Models.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.csproj.AssemblyReference.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.AssemblyInfoInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.AssemblyInfo.cs
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.csproj.CoreCompileInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.csproj.CopyComplete
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\refint\WebApp.Concrete.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\WebApp.Concrete.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Concrete\obj\Debug\net6.0\ref\WebApp.Concrete.dll

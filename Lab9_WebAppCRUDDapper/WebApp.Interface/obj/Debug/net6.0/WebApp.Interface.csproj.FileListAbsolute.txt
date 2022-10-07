@@ -1,0 +1,15 @@
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\bin\Debug\net6.0\WebApp.Interface.deps.json
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\bin\Debug\net6.0\WebApp.Interface.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\bin\Debug\net6.0\WebApp.Interface.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\bin\Debug\net6.0\WebApp.Models.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\bin\Debug\net6.0\WebApp.Models.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.csproj.AssemblyReference.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.AssemblyInfoInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.AssemblyInfo.cs
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.csproj.CoreCompileInputs.cache
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.csproj.CopyComplete
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\refint\WebApp.Interface.dll
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\WebApp.Interface.pdb
+D:\ASPNETCORE\Code\Lab9_WebAppCRUDDapper\WebApp.Interface\obj\Debug\net6.0\ref\WebApp.Interface.dll

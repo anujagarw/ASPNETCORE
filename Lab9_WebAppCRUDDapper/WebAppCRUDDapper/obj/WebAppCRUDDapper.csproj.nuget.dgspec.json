@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebAppCRUDDapper\\WebAppCRUDDapper.csproj": {}
+  },
+  "projects": {
+    "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\WebApp.Concrete.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\WebApp.Concrete.csproj",
+        "projectName": "WebApp.Concrete",
+        "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\WebApp.Concrete.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj"
+              },
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj",
+        "projectName": "WebApp.Interface",
+        "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj",
+        "projectName": "WebApp.Models",
+        "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebAppCRUDDapper\\WebAppCRUDDapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebAppCRUDDapper\\WebAppCRUDDapper.csproj",
+        "projectName": "WebAppCRUDDapper",
+        "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebAppCRUDDapper\\WebAppCRUDDapper.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebAppCRUDDapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\WebApp.Concrete.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Concrete\\WebApp.Concrete.csproj"
+              },
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Interface\\WebApp.Interface.csproj"
+              },
+              "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj": {
+                "projectPath": "D:\\ASPNETCORE\\Code\\Lab9_WebAppCRUDDapper\\WebApp.Models\\WebApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

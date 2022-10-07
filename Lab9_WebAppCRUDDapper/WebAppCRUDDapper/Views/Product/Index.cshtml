@@ -1,0 +1,84 @@
+﻿@*@model IEnumerable<WebApp.Models.ProductModel>*@
+@model WebApp.Models.Paging.PagingList<WebApp.Models.ProductModel> 
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Index</h3>
+
+<a asp-action="Create" asp-controller="Product" class="btn btn-primary">Create</a>
+@using (Html.BeginForm())
+{
+    <p>
+        Find by Name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+        <a asp-action="Index">Clear</a>
+    </p>
+}
+
+    
+
+<table class="table">
+    <tr>        
+        <th style="width:20%;">
+            @Html.ActionLink("Id", "Index", new { sortField = "ProductId", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th style="width:20%;">@Html.ActionLink("Name", "Index", new { sortField = "Name", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder, currentFilter = ViewBag.CurrentFilter })              
+        </th>    
+        <th style="width:20%;">
+            @Html.ActionLink("Unit Price", "Index", new { sortField = "UnitPrice", currentSortField = ViewBag.SortField, currentSortOrder = ViewBag.SortOrder, currentFilter = ViewBag.CurrentFilter })
+        </th>        
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductId</td>
+            <td>@item.Name</td>
+            <td>@item.UnitPrice</td>
+            <td>@item.Description</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
+                <a asp-action="Delete" asp-controller="Product" asp-route-id="@item.ProductId" onclick="return confirm('Are you sure to delete?')"
+               class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+
+<br />  
+  
+@{  
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";  
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";  
+    var totalPageNo = Model.TotalPageNo;  
+    var currentPageNo = Model.PageIndex;  
+}  
+  
+<a asp-action="Index"  
+   asp-route-sortOrder="@ViewData["CurrentSort"]"  
+   asp-route-pageNo="@(Model.PageIndex - 1)"  
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"  
+   class="btn btn-link @prevDisabled">  
+    Previous  
+</a>  
+<a asp-action="Index"  
+   asp-route-sortOrder="@ViewData["CurrentSort"]"  
+   asp-route-pageNo="@(Model.PageIndex + 1)"  
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"  
+   class="btn btn-link @nextDisabled">  
+    Next  
+</a>  
+<span>  
+    Page No : @currentPageNo of @totalPageNo  
+</span>  
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }    
+}
